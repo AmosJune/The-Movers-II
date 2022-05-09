@@ -1,5 +1,6 @@
 *{
   font-family: "Poppins",  "Actor", "Adamina";
+  font-weight: lighter;
 }
 .background-image{
   background-image: url("./images/moving\ 1.png");
@@ -7,7 +8,7 @@
   height: 700px;
   background-size: cover;
   background-position: center;
-  
+  padding: 0;
 }
 .nav{
   float: right;
@@ -43,4 +44,23 @@ li{
 #left-p{
   font-size: 20px;
   color: white;
+}
+.hustle{
+  display: flex;
+  padding: 40px 40px 40px 0;
+}
+
+.h-left img{
+  height: auto;
+  width:650px;
+}
+.h-right{
+  padding: 200px 0 200px 50px;
+}
+.btn1{
+  background-color: black;
+  color: #FAFF00;
+  border-radius: 0 10px 0 0;
+  border: none;
+  height: 45px;
 }
