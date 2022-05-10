@@ -52,7 +52,7 @@ li{
 
 .h-left img{
   height: auto;
-  width:650px;
+  width: 650px;
 }
 .h-right{
   padding: 200px 0 200px 50px;
@@ -87,16 +87,30 @@ justify-content: space-between;
 }
 
 /* css for movers.html */
+.bgc{
+  background-color: rgb(245,245,245);
+  padding: 50px 150px;
+}
 .design{
   display: flex;
+  width: 70%;
+
 }
 .design1{
-  float: left;
-  border: 2px solid red;
-  
+  width: 650px;
+  height: auto;
+}
+.design img{
+  width: 650px;
+  height: auto;
 }
 .design2{
-  float: right;
-  border: 2px solid green;
-
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: white;
+  justify-content: space-around;
+}
+.design-left{
+  display: flex;
 }
