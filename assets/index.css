@@ -87,3 +87,16 @@ justify-content: space-between;
 }
 
 /* css for movers.html */
+.design{
+  display: flex;
+}
+.design1{
+  float: left;
+  border: 2px solid red;
+  
+}
+.design2{
+  float: right;
+  border: 2px solid green;
+
+}
