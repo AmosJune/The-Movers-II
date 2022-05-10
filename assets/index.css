@@ -64,3 +64,24 @@ li{
   border: none;
   height: 45px;
 }
+.top-sect{
+  background-color: rgb(245,245,245);
+}
+.top-h1{
+  padding: 150px 0 150px 150px;
+}
+.img1{
+  display: flex;
+  padding: 0px 150px 100px 150px;
+  width: 250px;
+  height: 250px;
+justify-content: space-between;
+}
+.img2{
+  display: flex;
+  padding: 0px 150px 100px 150px;
+  width: 250px;
+  height: 250px;
+  justify-content: space-between;
+
+}
