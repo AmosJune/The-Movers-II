@@ -73,9 +73,11 @@ li{
 .img1{
   display: flex;
   padding: 0px 150px 100px 150px;
-  width: 250px;
-  height: 250px;
-justify-content: space-between;
+  justify-content: space-between;
+}
+.img1 img{
+  width: 200px;
+  display: ;
 }
 .img2{
   display: flex;
