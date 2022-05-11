@@ -103,6 +103,14 @@ justify-content: space-between;
   border-radius: 15px;
   width: 70%;
 }
+td{
+  border: 1px solid black;
+  padding: 20px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  width: 100px;
+}
 .design-left img{
   border-radius: 50%;
 }
