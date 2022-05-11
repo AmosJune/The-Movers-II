@@ -30,9 +30,8 @@ a{
   color: white;
 }
 ul>.log1{
-  background-color: #FAFF00;
-  color: black;
-margin-right: 40px;
+  background-color: rgb(253,177,85);
+  margin-right: 40px;
 
 }
 .ul2{
@@ -42,50 +41,67 @@ justify-content: space-between;
 }
 .ul2 p{
   list-style: none;
-  padding-left: 30px;
+  padding-left: 150px;
   font-size: 20px;
-  padding-right: 40px;
+  padding-right: 100px;
+  font-size: 25px;
+}
+.small{
+  font-size: xx-small;
+  font-weight: lighter;
 }
 .design{
   display: flex;
-  width: 70%;
-
+  width: 100%;
+}
+.design1{
+  width: 100%;
 }
 
 .design img{
-  width: 100%;
+  width: 700px;
   height: 100%;
 }
 .design2{
-  border: 1px solid;
   border-radius: 15px;
   padding: 30px;
   justify-content: space-around;
   background-color: white;
   margin-left: 30px;
-  width: 100%;
+  width: 30%;
 
 }
 .design2 p{
-  color: #FAFF00;
+  color: rgb(247,222,175);
 }
 .design-left{
   display: flex;
   background-color: rgb(245,245,245);
-  border-radius: 6px;
+  border-radius: 30px;
+  width: 200px;
+  height: 90px;
+}
+.design-left h3{
+  width: 100px;
 }
 .pro-forms{
   padding-top: 30px;
+  border-radius: 20px;
+  border: none;
 }
 .form{
   height: 40px;
   border-radius: 5px;
   border: 1px solid black;
+  width: 200px;
 }
 .info{
   background-color: white;
   padding: 30px;
-margin: 70px;
+  margin-left: 0;
+  margin-bottom: 70px;
+  border-radius: 15px;
+  width: 70%;
 }
 .design-left img{
   border-radius: 50%;
@@ -122,14 +138,21 @@ span{
   padding: 5px;
   padding: 30px 0;
 }
+.column img{
+  height: 80px;
+  justify-content: space-between;
+  padding: 12px;
+}
+
 .row::after {
   content: "";
   clear: both;
   display: flex;
+  width: 700px;
 }
 .descript{
   background-color: white;
-  border-radius: 6px;
+  border-radius: 20px;
   height: max-content;
   padding: 20px;
   width: 70%;
@@ -137,7 +160,7 @@ span{
 
 .feature{
   background-color: white;
-  border-radius: 6px;
+  border-radius: 20px;
   height: max-content;
   width: 70%;
   padding: 20px;
@@ -149,7 +172,6 @@ span{
 .list1{
   border-right: 150px;
   width: 70%;
-  background-color: white;
   margin-top: 50px;
   padding: 20px;
 
@@ -167,7 +189,15 @@ span{
 }
 .listings{
   height: 300px;
-
+  background-color: white;
+  height: max-content;
+  border-radius: 20px;
+}
+.listings p{
+  padding-left: 20px;
+}
+.listings li{
+  display: flex;
 }
 
 .footer{
@@ -203,5 +233,4 @@ span{
 }
 .foot-right{
   float: right;
-  
 }
