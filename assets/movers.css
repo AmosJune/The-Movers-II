@@ -109,7 +109,12 @@ td{
   border-top: none;
   border-bottom: none;
   border-left: none;
-  width: 100px;
+  width: 0px;
+  height: auto;
+}
+td img{
+  width: 30px;
+  height: 100%;
 }
 .design-left img{
   border-radius: 50%;
@@ -236,8 +241,9 @@ span{
 }
 .foot-icon{
   float: left;
-  width: 30px;
+  width: 20px;
   height: auto;
+  justify-content: space-between;
 }
 .foot-right{
   float: right;
