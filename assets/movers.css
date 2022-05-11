@@ -109,8 +109,7 @@ td{
   border-top: none;
   border-bottom: none;
   border-left: none;
-  width: 0px;
-  height: auto;
+  width: 100px;
 }
 td img{
   width: 30px;
